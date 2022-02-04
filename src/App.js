@@ -37,7 +37,7 @@ export default function App() {
         <Route
           path="/"
           element={
-            <Screen image="/logo.png">
+            <Screen image="/logo.jpg">
               <Button to="/intro-1" x="185" y="420" w="150" h="55" />
             </Screen>
           }
@@ -45,7 +45,7 @@ export default function App() {
         <Route
           path="/intro-1"
           element={
-            <Screen image="/1.jpg">
+            <Screen image="/Scan 1.png">
               <Button to="/intro-2" x="185" y="420" w="150" h="55" />
             </Screen>
           }
@@ -53,7 +53,7 @@ export default function App() {
         <Route
           path="/intro-2"
           element={
-            <Screen image="/2.jpg" back="/intro-1">
+            <Screen image="/Scan 2.png" back="/intro-1">
               <Button to="/" x="35" y="420" w="150" h="55" />
               <Button to="/intro-3" x="185" y="420" w="150" h="55" />
             </Screen>
@@ -62,7 +62,7 @@ export default function App() {
         <Route
           path="/intro-3"
           element={
-            <Screen image="/3.jpg" back="/intro-2">
+            <Screen image="/Scan 3.png" back="/intro-2">
               <Button to="/" x="105" y="530" w="150" h="55" />
             </Screen>
           }
@@ -70,7 +70,7 @@ export default function App() {
         <Route
           path="/intro-4"
           element={
-            <Screen image="/4.jpg" back="/intro-2">
+            <Screen image="/Scan 4.png" back="/intro-2">
               <Button to="/" x="105" y="530" w="150" h="55" />
             </Screen>
           }
