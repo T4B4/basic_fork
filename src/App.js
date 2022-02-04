@@ -76,6 +76,14 @@ export default function App() {
             </Screen>
           }
         />
+        <Route
+          path="/intro-5"
+          element={
+            <Screen image="/5.jpg" back="/intro-2">
+              <Button to="/" x="105" y="530" w="150" h="55" />
+            </Screen>
+          }
+        />
       </Routes>
     </div>
   );
