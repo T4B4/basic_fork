@@ -41,8 +41,7 @@ export default function App() {
               <Button to="/intro-1" x="185" y="420" w="150" h="55" />
             </Screen>
           }
-        />{" "}
-        */
+        />
         <Route
           path="/intro-1"
           element={
